@@ -1,0 +1,19 @@
+import Image from 'next/image';
+import apps_icon from '../assets/mdi_apps.svg'
+import shutdown_icon from '../assets/mdi_shutdown.svg'
+import Link from 'next/link';
+
+export const Navbar = (props : {}) => {
+  return (
+    <div className='flex justify-between py-1 px-2 border-[3px] border-neutral-800 rounded-lg mt-3 mb-6 w-shadow'>
+      {/* <Image src={apps_icon} alt={''} width={24} height={24}/>*/}
+      <div className="time">11:37 PM</div>
+      <div>
+        <Link className='mr-3' href="/">Home</Link>
+        <Link href="/blog">Blog</Link>
+      </div>
+      <Image src={shutdown_icon} alt={''} width={24} height={24}/>
+    </div>
+  )
+}
+

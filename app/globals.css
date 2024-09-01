@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #D4D4D4;
+  --neutral: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+/* .noise:after { */
+/*   animation: noise-anim 2s linear infinite; */
+/*   background-image: url(https://imgur.com/pi6z6UH.png); */
+/*   content: ""; */
+/*   width: 100%; */
+/*   height: 100%; */
+/*   position: fixed; */
+/*   opacity: 0.5; */
+/* } */
+
+body {
+  background: var(--paper);
+  color: var(--neutral);
+}
+
+.profile-bg {
+  background-size: 38rem;
+  background-position-y: 47%;
+  background-position-x: 44%;
+}
+
+.w-shadow {
+  box-shadow: 11px 11px 0px #998f8f;
+}
+
+.profile-bg, img {
+  filter: grayscale(80%)
+}

@@ -63,7 +63,7 @@ export const Experience = (props: {}) => {
   ]
 
   return (
-    <WindowContainer title={'Experience'} bodyStyles="grid grid-cols-2 gap-x-3 gap-y-1">
+    <WindowContainer title={'Experience'} bodyStyles="grid grid-cols-2 gap-x-3 gap-y-1 p-4">
       {jobs.map((job, i) => <JobItem key={i} companyName={job.companyName} workDuration={job.workDuration} role={job.role} logo={job.logo} imageWidth={job.imageWidth} />)}
     </WindowContainer>
   )

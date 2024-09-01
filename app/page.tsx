@@ -13,7 +13,7 @@ import { Skills } from "@/components/Skills";
 export default function Home() {
   return (
     <>
-      <WindowContainer title={'Introduction'} windowStyles="mb-6" bodyStyles="grid grid-cols-[1fr_225px] items-center">
+      <WindowContainer title={'Introduction'} windowStyles="mb-6" bodyStyles="grid grid-cols-[1fr_225px] items-center p-4">
         <div className="">
           <span className="bg-neutral-800 text-white py-1 px-3 rounded-full inline-flex items-center mb-3">
             <span className="inline-block h-[11px] w-[11px] mr-2 bg-paper rounded-full"></span>
@@ -40,7 +40,7 @@ export default function Home() {
         <Experience />
       </div>
 
-      <WindowContainer title={'Github contributions'} windowStyles="mb-6">
+      <WindowContainer title={'Github contributions'} windowStyles="mb-6" bodyStyles="p-4">
         <Image className="relative" src="http://ghchart.rshah.org/renztp" alt="renztp's Github chart" width={0} height={0} sizes="100vw" style={{width: '100%', height: 'auto'}}></Image>
       </WindowContainer>
     </>

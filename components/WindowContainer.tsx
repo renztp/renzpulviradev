@@ -13,7 +13,7 @@ export const WindowContainer = ({title, windowStyles, bodyStyles, children}: Pro
       <div className="title-bar uppercase bg-neutral-800 text-paper py-1 px-2 font-medium">
         {title}
       </div>
-      <div className={`window-wrapper-body p-4 ${bodyStyles}`}>
+      <div className={`window-wrapper-body ${bodyStyles}`}>
         {children}
       </div>
     </div>

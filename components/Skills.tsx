@@ -18,7 +18,7 @@ import nextIcon from '../assets/nextjs-icon.svg'
 
 export const Skills = (props : {}) => {
   return (
-    <WindowContainer title="Skills" windowStyles="" bodyStyles="flex items-center flex-wrap gap-y-2">
+    <WindowContainer title="Skills" windowStyles="" bodyStyles="p-4 flex items-center flex-wrap gap-y-2">
       <Image src={jsIcon} className="mr-1 text-center" alt="js icon" width={34} />
       <Image src={htmlIcon} className="mr-0 text-center" alt="html icon" width={34} />
       <Image src={cssIcon} className="mr-1 text-center" alt="css icon" width={34} />

@@ -40,7 +40,7 @@ export const Projects = (props: {}) => {
   ]
 
   return (
-    <WindowContainer title={'Projects'} bodyStyles="" windowStyles='mb-6 flex-1'>
+    <WindowContainer title={'Projects'} bodyStyles="p-4" windowStyles='mb-6 flex-1'>
       {projects.map((project, i) => <JobItem key={i} projectTitle={project.projectTitle} techStack={project.techStack} projectDesc={project.projectDesc} logo={project.logo} />)}
     </WindowContainer>
   )

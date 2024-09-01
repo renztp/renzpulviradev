@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { WindowContainer } from "@/components/WindowContainer";
 import Image from 'next/image';
 
@@ -42,7 +41,7 @@ export default function Home() {
       </div>
 
       <WindowContainer title={'Github contributions'} windowStyles="mb-6">
-        <img src="http://ghchart.rshah.org/renztp" alt="renztp's Github chart" width="98%" />
+        <Image className="relative" src="http://ghchart.rshah.org/renztp" alt="renztp's Github chart" width={0} height={0} sizes="100vw" style={{width: '100%', height: 'auto'}}></Image>
       </WindowContainer>
     </>
   );

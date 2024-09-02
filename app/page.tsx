@@ -9,6 +9,12 @@ import twitterIcon from '../assets/ant-design_twitter-outlined.svg'
 import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Renz Pulvira',
+  description: 'My digital space'
+}
 
 export default function Home() {
   return (

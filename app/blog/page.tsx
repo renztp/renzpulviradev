@@ -1,6 +1,12 @@
 import { WindowContainer } from '@/components/WindowContainer'
+import { Metadata } from 'next'
 import Link from 'next/link'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Renz Pulvira - Blog',
+  description: 'Renz Pulvira all blog posts'
+}
 
 export default function Blog() {
   return (

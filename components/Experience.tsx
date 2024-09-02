@@ -43,7 +43,7 @@ export const Experience = (props: {}) => {
     },
     {
       companyName: 'M Square Media',
-      workDuration: '2021 - 2022',
+      workDuration: '2020 - 2021',
       role: 'Web Developer',
       logo: msmIcon,
       imageWidth: 45

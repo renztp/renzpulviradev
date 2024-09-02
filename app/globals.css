@@ -41,5 +41,5 @@ body {
 }
 
 .profile-bg, img {
-  filter: grayscale(80%)
+  filter: grayscale(0)
 }

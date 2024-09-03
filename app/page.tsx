@@ -10,6 +10,7 @@ import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: 'Renz Pulvira',
@@ -28,10 +29,9 @@ export default function Home() {
           <h1 className="text-4xl font-black mb-2 text-neutral-800">Renz Tullao Pulvira</h1>
           <p className="text-base mb-2">I’m a <u>Software developer</u> based on Pampanga, Philippines<br />focused on full-stack web development.</p>
           <div className="icon-group flex">
-            <a href="/" className="mr-2"><Image src={linkedInIcon} alt={''} width={34} height={34} /></a>
-            <a href="/" className="mr-2"><Image src={githubIcon} alt={''} width={34} height={34} /></a>
-            <a href="/" className="mr-2"><Image src={gmailIcon} alt={''} width={34} height={34} /></a>
-            <a href="/" className="mr-2"><Image src={twitterIcon} alt={''} width={34} height={34} /></a>
+            <Link target="_blank" className="mr-2" href="https://www.linkedin.com/in/renz-pulvira/"><Image src={linkedInIcon} alt={''} width={34} height={34} /></Link>
+            <Link target="_blank" className="mr-2" href="https://github.com/renztp"><Image src={githubIcon} alt={''} width={34} height={34} /></Link>
+            <Link className="mr-2" href="mailto:tullaorenz@gmail.com"><Image src={gmailIcon} alt={''} width={34} height={34} /></Link>
           </div>
         </div>
         <div className=""><div className="inner border-2 border-neutral-800 profile-bg h-[169px] w-full bg-[url('../assets/profile.jpg')] rounded-lg"></div></div>

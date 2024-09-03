@@ -13,8 +13,9 @@ export const Navbar = (props : {}) => {
       {/* <Image src={apps_icon} alt={''} width={24} height={24}/>*/}
       <div className="time">11:37 PM</div>
       <div>
-        <Link className='mr-3' href="/">Home</Link>
-        <Link href="/blog">Blog</Link>
+        <Link className='mr-3' href="/">About Me</Link>
+        <Link className='mr-3' href="/blog">Blog</Link>
+        <Link href="/dotfiles">Dotfiles</Link>
       </div>
       <Image src={shutdown_icon} alt={''} width={24} height={24}/>
     </div>
